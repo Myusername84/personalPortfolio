@@ -1,0 +1,564 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", serif;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 130px;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+nav button {
+  padding: 10px;
+  width: 143px;
+  height: 46px;
+  border-radius: 4px;
+  background: black;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  outline: none;
+  justify-content: center;
+}
+nav button p {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: white;
+}
+
+.firstNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.firstNav img {
+  margin-right: 20px;
+}
+.firstNav p {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -2%;
+}
+
+.navItems {
+  display: flex;
+  gap: 2.5em;
+  align-items: center;
+}
+.navItems a {
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 20px;
+  transition: all 0.5s;
+}
+.navItems a:hover {
+  text-decoration: underline;
+  color: #404040;
+}
+
+header {
+  display: flex;
+  padding-left: 100px;
+  margin-bottom: 120px;
+  justify-content: center;
+}
+header .headerLinks {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+header .headerLinks a {
+  padding: 10px;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+header .headerLinks .facebook {
+  background: black;
+}
+header p {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #71717a;
+  margin-bottom: 50px;
+}
+header .person {
+  width: 739px;
+  height: 446px;
+  margin-left: 50px;
+}
+header .headerBlock {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+header .headerLinks {
+  display: flex;
+}
+header h1 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 57px;
+  letter-spacing: -2%;
+  width: 680px;
+  margin-bottom: 30px;
+}
+header h1 .spanStroke {
+  color: white;
+  font-weight: 800;
+  text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black, 0 -2px black, -1.41px -1.41px black, -2px 0 black, -1.41px 1.41px black, 0 2px black;
+}
+header h1 .spanBlack {
+  font-weight: 800;
+}
+
+main {
+  margin-bottom: 80px;
+}
+main a:hover {
+  cursor: pointer;
+}
+main .skillsBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2em;
+  margin-bottom: 90px;
+}
+main .skillsBlock h2 {
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  margin-bottom: 50px;
+}
+main .skillsBlock h2 .spanBlack {
+  font-weight: 800;
+}
+main .skillsBlock .skills {
+  display: grid;
+  grid-template-columns: repeat(5, 186px);
+  gap: 2.5em 5em;
+}
+main .skillsBlock .skills div {
+  padding: 10px;
+  width: 186px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+main .skillsBlock .skills div img {
+  margin-bottom: 35px;
+}
+main .skillsBlock .skills div p {
+  line-height: 24px;
+  letter-spacing: -2%;
+  font-size: 20px;
+  font-weight: bold;
+}
+main .skillsBlock .skills .javaScriptSkill {
+  background: black;
+  color: white;
+}
+main .myExperience {
+  background: black;
+  width: 100vw;
+  height: 956px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 65px;
+  margin-bottom: 60px;
+}
+main .myExperience h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 2%;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+main .myExperience h2 span {
+  font-weight: 800;
+}
+main .myExperience .experienceBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+main .myExperience .experienceBlock .element {
+  border: 1px solid #71717a;
+  border-radius: 10px;
+  background: transparent;
+  width: 1168px;
+  height: 192px;
+  padding: 0 25px;
+  padding-top: 25px;
+}
+main .myExperience .experienceBlock .element .workText {
+  color: #d4d4d8;
+  letter-spacing: 2%;
+  font-size: 16px;
+  line-height: 24px;
+}
+main .myExperience .experienceBlock .element .dataBlock {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+main .myExperience .experienceBlock .element .dataBlock .data {
+  color: #d4d4d8;
+}
+main .myExperience .experienceBlock .element .dataBlock div {
+  display: flex;
+  align-items: center;
+  gap: 2em;
+}
+main .myExperience .experienceBlock .element .dataBlock div p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -2%;
+  text-align: center;
+}
+main .myExperience .experienceBlock .element.two {
+  background: #27272a;
+}
+main .aboutMe {
+  display: flex;
+  gap: 88.55px;
+  padding: 0 112px;
+  margin-bottom: 40px;
+}
+main .aboutMe img {
+  width: 525.45px;
+  height: 572px;
+}
+main .aboutMe .aboutText h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  color: black;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+main .aboutMe .aboutText h2 span {
+  font-weight: 800;
+}
+main .aboutMe .aboutText div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .aboutMe .aboutText div p {
+  color: #71717a;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+main .myProjects {
+  display: flex;
+  flex-direction: column;
+  gap: 4em;
+  background: black;
+  width: 100vw;
+  height: 1820px;
+  color: white;
+  align-items: center;
+  padding-top: 70px;
+}
+main .myProjects h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+main .myProjects h2 span {
+  font-weight: 800;
+}
+main .myProjects .projectBlock {
+  display: flex;
+  flex-direction: row;
+}
+main .myProjects .projectBlock img {
+  margin-right: 65px;
+}
+main .myProjects .projectBlock .blockTwoImg {
+  margin-right: 0;
+  margin-left: 65px;
+}
+main .myProjects .projectBlock div {
+  margin-top: 70px;
+}
+main .myProjects .projectBlock h2 {
+  font-weight: 800;
+}
+main .myProjects .projectBlock h3 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -2%;
+  margin-bottom: 28px;
+}
+main .myProjects .projectBlock p {
+  letter-spacing: 2%;
+  line-height: 24px;
+  color: #71717a;
+  margin-bottom: 30px;
+}
+main .myTestimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 70px;
+  gap: 3em;
+}
+main .myTestimonial h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+main .myTestimonial h2 span {
+  font-weight: 800;
+}
+main .myTestimonial .myComments {
+  display: flex;
+  gap: 1.8em;
+  justify-content: center;
+}
+main .myTestimonial .myComments .commentsBlock {
+  padding: 20px;
+  width: 370px;
+  height: 398px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 3px 4px 19px -5px rgb(64, 64, 64);
+  text-align: center;
+}
+main .myTestimonial .myComments .commentsBlock img {
+  margin-bottom: 20px;
+}
+main .myTestimonial .myComments .commentsBlock .commentTexts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main .myTestimonial .myComments .commentsBlock .commentTexts div {
+  border-bottom: 2px solid black;
+  width: 120px;
+  height: 2px;
+  margin-bottom: 20px;
+}
+main .myTestimonial .myComments .commentsBlock .commentTexts .comment {
+  color: #404040;
+  line-height: 20px;
+  letter-spacing: 2%;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+main .myTestimonial .myComments .commentsBlock .commentTexts .commentAuthor {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  color: #404040;
+  margin-bottom: 25px;
+  font-weight: 600;
+}
+main .myTestimonial .myComments .commentsBlock .commentTexts .commentProf {
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  color: #71717a;
+  font-weight: 600;
+}
+main .myTestimonial .myComments .blackBlock {
+  background: black;
+}
+main .myTestimonial .myComments .blackBlock .commentTexts div {
+  border-bottom: 2px solid white;
+}
+main .myTestimonial .myComments .blackBlock .commentTexts .comment,
+main .myTestimonial .myComments .blackBlock .commentTexts .commentAuthor,
+main .myTestimonial .myComments .blackBlock .commentTexts .commentProf {
+  color: white;
+}
+main .myTestimonial .formAndTalk {
+  display: flex;
+  justify-content: center;
+  gap: 108px;
+}
+main .myTestimonial .formAndTalk .formBlock {
+  display: flex;
+  flex-direction: column;
+}
+main .myTestimonial .formAndTalk .formBlock form {
+  display: flex;
+  flex-direction: column;
+}
+main .myTestimonial .formAndTalk .formBlock form input {
+  outline: none;
+  border: 1.4px solid black;
+  width: 500px;
+  height: 56px;
+  padding: 15px;
+  border-radius: 4px;
+  background: transparent;
+  margin-bottom: 10px;
+  color: #71717A;
+  line-height: 20px;
+  font-size: 16px;
+  letter-spacing: -2%;
+  transition: all 0.1s ease-in;
+}
+main .myTestimonial .formAndTalk .formBlock form input:hover, main .myTestimonial .formAndTalk .formBlock form textarea:hover {
+  color: #404040;
+  background: #F4F4F5;
+}
+main .myTestimonial .formAndTalk .formBlock form input:focus, main .myTestimonial .formAndTalk .formBlock form textarea:focus {
+  color: #404040;
+  background: white;
+  box-shadow: 0px 16px 40px -24px rgba(64, 64, 64, 0.75);
+}
+main .myTestimonial .formAndTalk .formBlock form input:invalid {
+  border: 1.4px solid #Ef4444;
+  color: #Ef4444;
+}
+main .myTestimonial .formAndTalk .formBlock form textarea {
+  padding: 15px;
+  width: 500px;
+  height: 140px;
+  background: transparent;
+  outline: none;
+  border: 1.4px solid black;
+  color: #71717A;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: -2%;
+  margin-bottom: 20px;
+  resize: none;
+}
+main .myTestimonial .formAndTalk .formBlock .formLinks {
+  display: flex;
+  align-items: center;
+  gap: 1.6em;
+}
+main .myTestimonial .formAndTalk .formBlock .formLinks button {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 173px;
+  height: 56px;
+  border-radius: 4px;
+  background: black;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+main .myTestimonial .formAndTalk .formBlock .formLinks a {
+  padding: 10px;
+  width: 56px;
+  height: 56px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+}
+main .myTestimonial .formAndTalk .formBlock .formLinks .facebook {
+  background: black;
+}
+main .myTestimonial .formAndTalk .talkBlock {
+  margin-top: 50px;
+}
+main .myTestimonial .formAndTalk .talkBlock h2 {
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: -2%;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+main .myTestimonial .formAndTalk .talkBlock h2 span {
+  color: white;
+  font-weight: 800;
+  text-shadow: 1.41px 1.41px black, 2px 0 black, 1.41px -1.41px black, 0 -2px black, -1.41px -1.41px black, -2px 0 black, -1.41px 1.41px black, 0 2px black;
+}
+main .myTestimonial .formAndTalk .talkBlock p {
+  color: #71717A;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2%;
+  margin-bottom: 40px;
+}
+main .myTestimonial .formAndTalk .talkBlock h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 50px;
+  letter-spacing: 2%;
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  padding-left: 120px;
+  padding-right: 112px;
+  display: flex;
+  background: black;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footerOne {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+footer .footerOne p {
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: -2%;
+  font-weight: bold;
+}
+footer .footerTwo p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -2%;
+  text-align: right;
+}
+
+@media screen and (min-width: 2000px) {
+  .aboutMe {
+    justify-content: center;
+  }
+}/*# sourceMappingURL=main.css.map */

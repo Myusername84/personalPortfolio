@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "sass": "^1.69.7",
+    "sass:compile": "sass main.scss dist/main.css",
+    "sass:watch": "sass-watch styles:dist"
+  }
+}
